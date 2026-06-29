@@ -40,7 +40,7 @@ function Header() {
             <HeaderItem key={item.name} name={item.name} Icon={item.icon} />
         ))}
         </div>
-          <div className='flex md:hidden gap-5'>
+          <div className='flex md:hidden gap-5 mt-5'>
         {menu.map((item,index)=>index<3&&(
             <HeaderItem key={item.name} name={''} Icon={item.icon} />
         ))}
